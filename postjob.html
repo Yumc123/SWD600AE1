@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+    <div class="row">
+    <div class="large-12 columns">
+      <div class="topnav">
+      <a href="index.html"><img src="assets/img/logo.png"></img></a>
+      </div>
+
+      <div class="topnav" id="thetopnav">
+         <a href="index.html">Find Jobs</a> 
+         <a href="#news">Post CV</a> 
+         <a href="#contact">Company profiles</a> 
+         <a href="postjob.html"><strong><u>Post Job</u></strong></a> 
+         <a href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</a> 
+    </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+        <div class="search">
+          <strong><h3>Post job</h3></strong>
+          <br><br>
+          <div class="callout">
+          <u><h4>Job details</h4></u>
+            <div class="row">
+              <div class="large-6 medium-6 columns">
+                <p>Job title: </p> <input type="text" placeholder="Title of the job" />
+              </div>
+              <div class="large-6 medium-6 columns">
+                  <p>Type: </p>
+                  <select>
+                    <option value="permanent">Permanent</option>
+                    <option value="temporary">Temporary</option>
+                    <option value="contract">Contract</option>
+                    <option value="full-time">Full-time</option>
+                    <option value="part-time">Part-time</option>
+                  </select>
+              </div>
+              <br>
+              <div class="large-12 columns">
+                <p>Company: </p><input type="text" placeholder="Company name"/>
+              </div>
+              <br>
+              <div class="large-6 medium-6 columns">
+                <p>Location: </p> <input type="text" placeholder="location e.g. Southampton"  />
+              </div>
+              <div class="large-6 medium-6 columns">
+                <p>Email: </p>
+                <input type="text"  class="input-group-field" placeholder="Email address"/>
+              </div>
+              <br>
+              <div class="large-12 columns">
+                <p>Salary: </p> <input type="text" placeholder="Salary range">
+              </div>
+              <div class="large-12 columns">
+                <p>Job description: </p>
+                <textarea placeholder="The Job description, and any other requirement"></textarea>
+              </div>
+            </div>
+             <a target="_blank" class="button [radius round]"> Subbmit </a>
+          </div>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  <script>
+function myFunction() {
+    var x = document.getElementById("thetopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  </script>
+  </body>
+</html>

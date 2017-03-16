@@ -1,0 +1,121 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+    <div class="row">
+    <div class="large-12 columns">
+      <div class="topnav">
+      <a href="index.html"><img src="assets/img/logo.png"></img></a>
+      </div>
+
+      <div class="topnav" id="thetopnav">
+         <a href="index.html">Find Jobs</a> 
+         <a href="#news">Post CV</a> 
+         <a href="#contact">Company profiles</a> 
+         <a href="postjob.html"><strong><u>Post Job</u></strong></a> 
+         <a href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</a> 
+    </div>
+    </div>
+    </div>
+  <div class="row">
+      <div class="large-12 columns">
+        <div class="search">
+            <div class="search-sub">
+            <div class="row">
+                <div class="large-4 medium-4 columns">
+                  <label>Search for job</label>
+                  <input type="text" placeholder="keywords e.g. web design" />
+                </div>
+                <div class="large-4 medium-4 columns">
+                  <label>Location</label>
+                  <input type="text" placeholder="town or postcode" />
+                </div>
+              <div class="large-4 medium-4 columns">
+              <label>Distance</label>
+              <select>
+                <option value="3">3 Miles</option>
+                <option value="5">5 Miles</option>
+                <option value="10">10 Miles</option>
+                <option value="15">15 Miles</option>
+                <option value="20">20 Miles</option>
+              </select>
+              </div>
+            </div>
+            <p><a href="search.html" target="_blank" class="button [radius round]"> Search</a></p>  
+          </div>
+        
+      <div class="row">
+      <div class="large-3 medium-3 columns">
+        <div class="callout">
+          <h5>Salary range</h5>
+          <li><a href="">£10,000 + </a></li>
+          <li><a href="">£15,000 + </a></li>
+          <li><a href="">£20,000 + </a></li>
+          <li><a href="">£25,000 + </a></li>
+          <li><a href="">£30,000 + </a></li>
+        </div>
+        <div class="callout">
+          <h5>Job type</h5>
+            <input type="radio" name="type" value="permanent" id="permanent"><label for="permanent">Permanent</label><br />
+            <input type="radio" name="type" value="temporary" id="temporary"><label for="temporary">Temporary</label><br />
+            <input type="radio" name="type" value="contract" id="contract"><label for="contract">Contract</label><br />
+            <input type="radio" name="type" value="Full-time" id="Full-time"><label for="Full-time">Full-time</label><br />
+            <input type="radio" name="type" value="part-time" id="part-time"><label for="part-time">Part-time</label><br />
+        </div>
+      </div>
+        <div class="large-9 medium-9 columns">
+           <div class="callout">
+            <h3><a href="detail.html">Web Developer - Design</a></h3>
+            <strong>Posted 16 march by <a href="#">Vertu Motors PLC</a></strong><br>
+            <p>£30,000 - £40,000 per annum, inc benefits</p>
+            <p>Web Developer - Design Finance Business Services Competitive salary - depending on experience, plus company benefits and Company Car ...</p>
+          </div>
+        </div>
+        <div class="large-9 medium-9 columns">
+          <div class="callout">
+            <h3><a href="detail.html">Web Designer / Brand Design / Graphic Design</a></h3>
+            <strong>Posted 14 march by <a href="#">Bold Careers</a></strong><br>
+            <p>£24,000 - £25,000 per annum</p>
+            <p>Web Design / Web Designer Salary up to £25k per annum - Wakefield A leading agency in Wakefield, has a really interesting job opening for a Web Designer to expand their digital in-house offering...</p>
+          </div>
+        </div>
+        <div class="large-9 medium-9 columns">
+          <div class="callout">
+            <h3><a href="detail.html">Web Project Manager and Lead Design/Developer</a></h3>
+            <strong>Posted 13 march by <a href="#">Vertu Motors PLC</a></strong>
+            <p>£270.00 - £300.00 per day</p>
+            <p>location: Southampton</p>
+            <p>Web Project Manager and Lead Design/Developer Contract 3 Months Up to £300p/d Experience agile project manager with excellent web development design and ...</p>
+          </div>
+        </div>
+        <div class="large-9 medium-9 columns">
+          <div class="callout">
+            <h3><a href="detail.html">Front End Web Developer </a></h3>
+            <strong>Posted 11 march by <a ref="#">XIST4 IT Recruitment</a></strong>
+            <p>45,000.00 - 50,000.00 £  per year</p>
+            <p>Location: London</p><br>
+            <p>Front End Web Developer / Web Designer - HTML5, CSS3 and JavaScript. Location: North London (Closest tube is Angel) Salary: £45-50,000, £2.5k performance related bonus....</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    <script src="assets/js/app.js"></script>
+  <script>
+    function myFunction() {
+        var x = document.getElementById("thetopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+  </script>
+  </body>
+</html>

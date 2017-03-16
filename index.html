@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+    <div class="row">
+    <div class="large-12 columns">
+      <div class="topnav">
+      <a href="index.html"><img src="assets/img/logo.png"></img></a>
+      </div>
+
+      <div class="topnav" id="thetopnav">
+         <a href="index.html">Find Jobs</a> 
+         <a href="#news">Post CV</a> 
+         <a href="#contact">Company profiles</a> 
+         <a href="postjob.html"><strong><u>Post Job</u></strong></a> 
+         <a href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</a> 
+    </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="search">
+            <div class="search-box">
+                        <h3>Job search</h3>
+          <p>Start your search over 200,000 Jobs  </p>
+            <div class="row">
+                <div class="large-4 medium-4 columns">
+                  <label>Search for job</label>
+                  <input type="text" placeholder="keywords e.g. web design" />
+                </div>
+                <div class="large-4 medium-4 columns">
+                  <label>Location</label>
+                  <input type="text" placeholder="town or postcode" />
+                </div>
+              <div class="large-4 medium-4 columns">
+              <label>Distance</label>
+              <select>
+                <option value="3">3 Miles</option>
+                <option value="5">5 Miles</option>
+                <option value="10">10 Miles</option>
+                <option value="15">15 Miles</option>
+                <option value="20">20 Miles</option>
+              </select>
+              </div>
+            </div>
+            <p><a href="search.html" target="_blank" class="button [radius round]"> Search</a></p>  
+          </div>
+
+          <hr>
+
+            <div class="row">
+              <div class="large-4 medium-4 columns">
+                <div class="primary callout">
+                  <img border="0" alt="HSBC" src="assets/img/hsbc.jpg" >
+                  <hr>
+                  <p>Job at <a href="">HSBC</a></p>
+                </div>
+              </div>
+          
+              <div class="large-4 medium-4 columns">
+                <div class="primary callout">
+                  <img border="0" alt="barclay" src="assets/img/barclays.jpg" >
+                  <hr>
+                  <p>Job at <a href="">barclay</a></p>
+                </div>
+              </div>
+          
+              <div class="large-4 medium-4 columns">
+                <div class="primary callout">
+                  <img border="0" alt="sky" src="assets/img/sky.png" >
+                  <hr>
+                  <p>Job at <a href="">sky</a></p>
+                </div>
+              </div>
+
+            <div class="large-4 medium-4 columns">
+              <div class="primary callout">
+                <img border="0" alt="nhs" src="assets/img/nhs.jpg" >
+                <hr>
+                <p>Job at <a href="">NHS</a></p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <div class="primary callout">
+                <img border="0" alt="cisco" src="assets/img/cisco.jpeg" >
+                <hr>
+                <p>Job at <a href="">Cisco</a></p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <div class="primary callout">
+                <img border="0" alt="apple" src="assets/img/apple.jpg" >
+                <hr>
+                <p>Job at <a href="">Apple</a></p>
+              </div>
+          </div>
+        </div>
+        <p></p>
+        <a href="" class="small button">See all companies</a>   
+      </div>
+    </div>
+  </div>
+    <script src="assets/js/app.js"></script>
+  <script>
+function myFunction() {
+    var x = document.getElementById("thetopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  </script>
+  </body>
+</html>
